@@ -1,25 +1,79 @@
 aid: academicpartnerships-com
+
 name: Academic Partnerships
-description: 'Academic Partnerships is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by insight-partners) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://risepoint.com/wp-content/uploads/2024/09/image-3.jpg
+
+description: 'Academic Partnerships, now operating as Risepoint, was founded in 2007 to expand access to workforce‑focused education for working adults. Originating from a response to Hurricane Rita’s impact on Texas public universities, the company developed an online education model that improves student outcomes and scales efficiently. Over nearly two decades, Risepoint has partnered with numerous public institutions to deliver flexible, high‑quality learning experiences, aiming to broaden higher‑education accessibility.'
+
 url: https://raw.githubusercontent.com/api-evangelist/academicpartnerships-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
-- Company
-apis: []
+- Education Technology
+- Online Degree Programs
+- Workforce Education
+- Marketing Services
+- Student Support
+- Faculty Support
+- Higher Education
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- insight-partners
+
 common:
+- type: LLMsTxt
+  url: llms/academicpartnerships-com-llms.txt
+- type: Hosts
+  url: hosts/academicpartnerships-com-hosts.yml
+- type: Vendors
+  url: vendors/academicpartnerships-com-vendors.yml
+- type: TermsOfService
+  url: https://policies.risepoint.com/terms-main/
+- type: PrivacyPolicy
+  url: https://policies.risepoint.com/privacy-main/
+- type: Newsroom
+  url: https://risepoint.com/newsroom/
+- type: Leadership
+  url: https://risepoint.com/team/
+- type: DomainSecurity
+  url: security/academicpartnerships-com-domain-security.yml
 - type: Website
   url: http://www.academicpartnerships.com/
+
+apis: []
+
+x-backed-by:
+- insight-partners
+
+x-coverage:
+  state: blocked
+  reason: bot-challenge
+  detail: Initial website redirects to risepoint.com which returns HTTP 403, blocking further probing.
+  evidence:
+    - url: https://academicpartnerships.com
+      status: 301
+    - url: https://risepoint.com
+      status: 403
+  checked: '2026-10-22'
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

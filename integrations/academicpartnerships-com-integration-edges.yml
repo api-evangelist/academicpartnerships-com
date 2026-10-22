@@ -1,0 +1,22 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/academicpartnerships-com/integrations
+- https://zapier.com/apps/academicpartnerships/integrations
+- https://zapier.com/apps/academic-partnerships/integrations
+- https://n8n.io/integrations/academicpartnerships-com/
+- https://n8n.io/integrations/academicpartnerships/
+- https://composio.dev/toolkits/academicpartnerships-com
+- https://monid.ai/tools/academicpartnerships-com
+checked:
+- https://composio.dev/toolkits/academicpartnerships-com
+- https://monid.ai/tools/academicpartnerships-com
+- https://n8n.io/integrations/academicpartnerships-com/
+- https://n8n.io/integrations/academicpartnerships/
+- https://zapier.com/apps/academic-partnerships/integrations
+- https://zapier.com/apps/academicpartnerships-com/integrations
+- https://zapier.com/apps/academicpartnerships/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

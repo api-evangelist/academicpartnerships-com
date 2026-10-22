@@ -1,0 +1,70 @@
+generated: '2026-10-22'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 2
+  other_domain: 3
+  platform: 0
+  roles:
+  - api
+  - legal
+  - other
+  - website
+hosts:
+- host: api.academicpartnerships.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: academicpartnerships.com
+  role: api
+  relation: own
+- host: api.risepoint.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: risepoint.com
+  role: api
+  relation: other-domain
+- host: policies.risepoint.com
+  found_by:
+  - pointer
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: risepoint.com
+  role: legal
+  relation: other-domain
+- host: risepoint.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Newsroom
+  - Leadership
+  serves: []
+  registrable_domain: risepoint.com
+  role: other
+  relation: other-domain
+- host: www.academicpartnerships.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: academicpartnerships.com
+  role: website
+  relation: own
