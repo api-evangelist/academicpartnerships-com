@@ -64,5 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Academic Partnerships is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by insight-partners) and added to the network as a stub for full-pipeline profiling.
-- http://www.academicpartnerships.com/
+Academic Partnerships, now operating as Risepoint, was founded in 2007 to expand access to workforce‑focused education for working adults. Originating from a response to Hurricane Rita’s impact on Texas public universities, the company developed an online education model that improves student outcomes and scales efficiently. Over nearly two decades, Risepoint has partnered with numerous public institutions to deliver flexible, high‑quality learning experiences, aiming to broaden higher‑education accessibility.
+
+**Areas:** Education Technology · Online Degree Programs · Workforce Education · Marketing Services · Student Support · Faculty Support · Higher Education
+
+## Academic Partnerships on APIs.io
+
+Everything profiled for Academic Partnerships is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/academicpartnerships-com/](https://apis.io/providers/academicpartnerships-com/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Academic Partnerships Domain Security](https://apis.io/security/academicpartnerships-com/academicpartnerships-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.academicpartnerships.com/)
+- [Terms of service](https://policies.risepoint.com/terms-main/)
+- [Privacy policy](https://policies.risepoint.com/privacy-main/)
+
+## API Evangelist rating
+
+**Kin Score 10.7** — minimal · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 31.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 7.8** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/academicpartnerships-com/](https://apis.io/providers/academicpartnerships-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Academic Partnerships: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/academicpartnerships-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
